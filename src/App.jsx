@@ -1,11 +1,8 @@
-import { board } from './components/board'
-
-
+import { Board } from './components/Board';
 
 function App() {
-
-  return <board />;
-
+  return <Board />;
 }
 
-export default App
+export default App;
+
