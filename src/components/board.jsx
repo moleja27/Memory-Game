@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export const = () => {
+export const Board = () => {
     const [cards, setCards] = useState([]);
     const [flippedCards, setFlippedCards] = useState([]);
     const [moves, setMoves] = useState(0);
@@ -8,10 +8,12 @@ export const = () => {
     const [isDisabled, setIsDisabled] = useState(false);
 
     return (
-        <div className='relative h-screem flex items-center'>
+        <div className='relative h-screen flex items-center'>
             <h1 className='font-bold text-4x1'>Memory Game</h1>
-
         </div>
-    );
- 
-};
+    )
+
+
+
+}
+
