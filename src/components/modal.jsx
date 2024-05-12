@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Modal = ({
+export const modal = ({
 	gameOver,
 	setGameOver,
 	moves,
