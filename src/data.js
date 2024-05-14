@@ -1,3 +1,4 @@
+// one array with them objets that contain the diferentes cards
 export const imgs = [
     {
         id: 1,
