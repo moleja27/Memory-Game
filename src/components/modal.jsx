@@ -1,10 +1,12 @@
 import React from 'react';
 
 export const Modal = ({
+
 	gameOver,
 	setGameOver,
 	moves,
 	handleNewGame,
+
 }) => {
 	return (
 		<div
